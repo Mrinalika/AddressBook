@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List of Vendors</title>
+   <!--  <link rel="stylesheet" type="text/css" href="mystyle.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/creative.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/table-format.css">
+	<!--  <link rel="stylesheet" type="text/css" href="creative.css"> -->
+    <script src="sort_list.js"></script>
+    <script src="search_nav.js"></script>
+
+</head>
+	
+</head>
+<body>
+
+<nav class="navbar navbar-light-fixed-top" style="background-color: #00CED1; ">
+    <div class="container">
+        <a class="navbar-brand" href="pages/index.html">
+        <img src="/Users/mrinalikaghosh/workspace/Creatives/pages/assets/images/logo.jpg" width="65" height="65" class="d-inline-block align-top">
+        <h1 style="font-family: cursive; color: white; display: inline-block;">Creative Engineers and Enterprises</h1></a>
+    </div>
+</nav>
+
+<div class="container">
+<div class="jumbotron">
+    <h1>List of Vendors</h1>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light">
+   
+ <div class=" d-flex justify-content-around align-items-center" style="height:20px;">
+  <a href="CreateVendors.html">
+    <button class="btn btn-info" style="height: 50px;">Create new Vendor  </button></a>
+  <a href="CreateVendors.html">
+    <button class="btn btn-primary" style="height: 50px;"><i class="fa">  &#xf0fe;</i></button>
+  </a>
+<!--   <a href="InvoiceDetails.html">
+    <button class="btn btn-warning" style="height: 100px;">Engineers Kanpur</button> 
+  </a>-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+   <!--  <h3><a class="nav-link" href="CreateVendors.html">Create new Vendor <i class="fa">&#xf0fe;</i></a></h3> -->
+
+    
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+    	<form class="form-inline flex-nowrap bg-light mx-0 mx-lg-auto rounded p-1">
+        <div class="search-bar">
+        <input class="form-control mr-sm-2" type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+        </div>
+    	</form>
+        </div>
+    </div>
+    </nav>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th id="wrapper" scope="col">Firm Name</th>
+      <th scope="col">Creative Engineers</th>
+      <th scope="col">Creative Enterprises</th>
+      <th scope="col">Balance Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+      <td id="vendor-name">Vendor 2</td>
+      <td>2000.00</td>
+      <td>3000.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td id="vendor-name">Vendor 1</td>
+      <td>2000.00</td>
+      <td>3000.00</td>
+      <td>0.00</td>
+    </tr>
+  </tbody>
+</table>	
+</div>
+<script type="text/javascript" src="Library/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="sort_list.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

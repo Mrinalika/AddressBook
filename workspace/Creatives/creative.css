@@ -1,0 +1,18 @@
+span{
+	font-family: "Helvetica Neue";
+	color: black;
+	text-align: center;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #F5FFFA;
+  border-radius: 0.3rem;
+  font-family: "Helvetica Neue";
+}
+
+.navbar navbar-expand-lg navbar-light{
+	font-family: "Helvetica Neue";
+	color: orange;
+}

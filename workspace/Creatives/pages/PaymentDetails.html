@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Invoice Details</title>
+	<!-- <link rel="stylesheet" type="text/css" href="mystyle.css"> -->
+<!-- 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css"> -->
+   <!--  <link rel="stylesheet" type="text/css" href="mystyle.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/creative.css">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-light" style="background-color: #00CED1; ">
+		<div class="container" >
+  		<a class="navbar-brand" href="index.html">
+    	<img src="/Users/mrinalikaghosh/workspace/Creatives/pages/assets/images/logo.jpg" width="65" height="65" class="d-inline-block align-top"><h1 style="font-family: cursive; color: white; display: inline-block;">Creative Engineers and Enterprises</h1></a>
+  		</div>
+	</nav>
+	<div class = "container"> 
+	<div class="jumbotron">
+    	<h1>Enter new Invoice Details</h1>
+	</div>
+		
+		<form id="create-new-billdetails" action="InvoiceDetails.html" method="POST">
+			<div class="form-group" >
+				<label for="firmname">Firm Name</label>
+				<input class="form-control" id="firmname" type="text" name="firmname" placeholder ="Firm Name" required>
+			</div>
+			 
+			<div class="form-group">
+				<label for="invoicenumber">Invoice Number</label>
+				<input class="form-control" id ="invoicenumber" type="text" name="invoicenumber" placeholder="Invoice Number" required>
+			</div>
+			
+			<div class="form-group">
+				<label for="date">Invoice Date</label>
+				<input class="form-control" id="date" type="date" name="date" placeholder="Date">
+			</div>
+			
+			<div class="form-group">
+				<label for="invoiceamt">Invoice Amount</label>
+				<input class="form-control" id="invoiceamt" type="number" name="invoiceamt" placeholder="Invoice Amount" required>
+			</div>
+
+			<div class="form-group">
+				<label for="paidamt">Amount Paid</label>
+				<input class="form-control" id="paidamt" type="number" name="paidamt" placeholder="Paid Amount">
+			</div>
+
+			<!-- Future enhanacement -->
+
+			<!-- <div class="form-group" col-md-4>
+			    <label for="inputState">Mode of Payment</label>
+				<select id="inputState" class="form-control">
+					<option selected>Select one</option>
+					<option value="1">NA</option>
+					<option value="2">Online</option>
+					<option value="3">Cash</option>
+				</select>
+			</div> -->
+			 
+  			<button class="btn btn-success btn-xs active">Submit</button>
+		</form>
+	</div>
+
+</body>
+<!-- <script type="text/javascript" src="assets/js/createVendor.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>

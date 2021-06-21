@@ -1,0 +1,9 @@
+
+tbody tr{
+	background: #fff;
+}
+
+tbody tr:nth-child(2n){
+	font-family: Roboto;
+	background: #f7f7f7;
+}

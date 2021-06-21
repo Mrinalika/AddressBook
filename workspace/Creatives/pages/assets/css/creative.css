@@ -1,0 +1,48 @@
+span{
+	font-family: "Helvetica Neue";
+	color: black;
+	text-align: center;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #F5FFFA;
+  border-radius: 0.3rem;
+  font-family: "Helvetica Neue";
+}
+
+.navbar navbar-expand-lg navbar-light{
+	font-family: "Helvetica Neue";
+	color: orange;
+}
+
+
+tr:nth-child(2n){
+	background: #f7f7f7;
+}
+
+tr{
+	background: #fff;
+}
+
+table{
+	margin: 0px;
+	padding: 2rem 1rem;
+	text-align: center;
+}
+
+#container{
+	margin: auto;
+	border: 2px solid gray;
+}
+
+.deletevendor{
+	color: gray;
+	text-decoration: line-through;
+}
+
+#create-new-billdetails{
+	margin: auto;
+	width: 400px;
+}
